@@ -1,5 +1,7 @@
+import Root from './Pages/Root';
+import './index.css';
 const App = () => {
-  return <div className="text-3xl">Ajay portfolio</div>;
+  return <Root />;
 };
 
 export default App;
