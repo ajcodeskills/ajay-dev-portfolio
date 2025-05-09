@@ -23,7 +23,7 @@ const NavBar = ({ selectedNavItem, handleNavClick }: TNavBarProps) => {
             <p
               key={`nav-item-${index}`}
               className={twMerge(
-                'text-base leading-7 hover:text-lg hover:font-semibold',
+                'text-base leading-7 transition-all duration-300 ease-in-out hover:text-lg',
                 selectedNavItem === item.id
                   ? 'font-semibold text-blue-500 underline'
                   : 'text-gray-500',
