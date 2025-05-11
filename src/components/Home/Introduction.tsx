@@ -9,7 +9,7 @@ import {
 const Introduction = () => {
   const name = `${`   `}Ajay Kumar`;
   return (
-    <div className="py-16px mx-auto flex items-center gap-20">
+    <div className="mx-auto flex items-center gap-20 px-24 py-16">
       <div className="flex flex-col justify-start gap-4">
         <div className="mb-6 w-fit rounded bg-emerald-400 px-3 py-1.5 text-lg text-white">
           Senior frontend developer
@@ -27,7 +27,7 @@ const Introduction = () => {
         <img
           src="/assets/ajay.jpeg"
           alt="ajay-profile"
-          className="w-[70rem] rounded-full"
+          className="w-[50rem] rounded-full"
         />
         <Card className="absolute top-10 left-[-2rem] h-20 w-20 rounded-full">
           <HTMLIcon className="relative h-12 w-12 fill-orange-400" />
