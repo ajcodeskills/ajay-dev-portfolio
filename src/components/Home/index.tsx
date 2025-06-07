@@ -1,6 +1,7 @@
 import { useState } from 'react';
 
 import About from 'components/About';
+import Contact from 'components/Contact';
 import NavBar from 'components/NavBar';
 import { TSelectedNavItem } from 'types/home.type';
 
@@ -18,6 +19,7 @@ const Home = () => {
       <div className="h-full flex-1 overflow-auto">
         <Introduction />
         <About />
+        <Contact />
       </div>
     </div>
   );

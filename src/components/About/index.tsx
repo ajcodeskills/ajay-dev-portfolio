@@ -33,7 +33,7 @@ const About = () => {
       <h1 className="mt-10 text-3xl">Tools</h1>
       <div className="mt-6 flex flex-wrap items-center justify-center gap-6">
         {SKILL_TOOLS_MAP.map((skill) => (
-          <Card className="flex h-40 w-36 flex-col gap-4 rounded-lg">
+          <Card className="flex h-40 w-36 flex-col gap-4 rounded-lg hover:scale-110 hover:transition-all hover:duration-300">
             <div className="flex h-14 w-14 items-end">
               <img
                 src={skill.path}
